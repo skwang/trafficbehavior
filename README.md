@@ -1,1 +1,9 @@
 # trafficbehavior
+
+### Developed by Kevin Wang for his Princeton undergraduate senior thesis
+### Demo: https://drive.google.com/file/d/0Bwg0gCWmGmk6dGJTNDJzY0JxLVU/view?usp=sharing
+
+### Abstract 
+There is a lack of publicly available data on human driving behaviors, despite the many potential applications including road design, traffic pattern studies, and self-driving vehicles. In this paper, we present a software system for extracting driving behavior features from front-facing dashboard camera videos of highway traffic. Such videos are abundantly available online and thus a potential source for building a large dataset of driving behavior. The three specific features we extract are bounding boxes of other vehicles in view, lines representing lane boundaries, and estimates of current speed. These features can be combined to study more complex driving behaviors. While the first two are well studied problems in computer vision, we are motivated by providing open-source vision tools that build on successful, state-of-the-art algorithms and do not require the camera parameters to be known. The third feature, estimating vehicle speed from a front-facing camera, is novel and we demonstrate that is possible to track speed within an average offset of 10\% error while also capturing acceleration trends. We accomplish these methods primarily through image processing techniques centered around using an inverse perspective mapping to transform the projected camera view into a top down view. This approach allows our algorithms to be easily interpretable while maintaining high accuracy. Finally, we also demonstrate how the output of our system can be used for analyzing more complex driving behaviors through two sample applications. 
+
+This project is licensed under the terms of the MIT license.
